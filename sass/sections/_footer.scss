@@ -4,7 +4,7 @@ footer{
 }
 
 h2{
-    text-align: center;
+    text-align: $text-center;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 40px;
@@ -15,8 +15,8 @@ h2{
 }
 
 .container-footer{
-    display: flex;
-    justify-content: center;
+    display: $header-display;
+    justify-content: $justify-centr;
     gap: 146px;
 }
 
@@ -36,15 +36,15 @@ h2{
 }
 
 button{
-    background-color: #FED136;
-    color: #FFFFFF;
+    background-color: $button-backround;
+    color: $button-color;
     padding-top: 18px;
     padding-bottom: 28px;
     padding-left: 33px;
     padding-right: 33px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: $header-display;
+    justify-content: $justify-centr;
+    text-align: $text-center;
     text-transform: uppercase;
     size: 18px;
     border-radius: 5px;
