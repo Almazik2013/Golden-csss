@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 91.5px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    margin-top: 94.69px;
+    text-align: center;
+}
+
+.card{
+    width: 274px;
+    height: 185px;
+    text-align: center;
+}
+
+.title-card{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-card{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
